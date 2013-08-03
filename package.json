@@ -1,0 +1,27 @@
+{
+  "name": "superqueue",
+  "description": "SuperQueue - Redis backed reliable Job queue",
+  "author": "shripadk",
+  "maintainers": [
+    {
+      "name": "Shripad K",
+      "email": "assortmentofsorts@gmail.com"
+    }
+  ],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shripadk/SuperQueue.git"
+  },
+  "bugs": {
+    "email": "assortmentofsorts@gmail.com"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "redis": "*",
+    "base64id": "*",
+    "node.extend": "*"
+  }
+}
